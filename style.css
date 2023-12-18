@@ -1,0 +1,47 @@
+#canvas:hover {
+    cursor: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.etsy.com%2Fca%2Flisting%2F1162061914%2Fpenis-svg-doodle-cock-svg-sketch-dick&psig=AOvVaw3h2zLno8UWxtdBjrdAMVz7&ust=1702542313699000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCIDLgsH-i4MDFQAAAAAdAAAAABAV'), auto;
+}
+
+.buttons {
+    display: flex;
+    gap: 0.3rem;
+}
+
+.eraser { 
+    border-radius: 4px;
+    border: 0.1px solid grey;
+    background-color: #EEE;
+
+    padding: 2px;
+}
+
+#eraser label {
+    text-align: center;
+    padding: 3px;
+    display: block;
+
+}
+
+input[type="checkbox"] {
+    /* display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0; */
+    position: absolute;
+    top: -20px;    
+
+
+    display: none;
+    /* border-color: black; */
+    /* margin-right: 100px; */
+
+    /* margin: 5rem; */
+    overflow: hidden;
+}
+
+#eraser:checked + label{
+    background-color: darkgrey;
+    margin: 0;
+    /* border-style: inset; */
+}
