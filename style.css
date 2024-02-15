@@ -5,6 +5,7 @@
 .buttons {
     display: flex;
     gap: 0.3rem;
+    padding-bottom: 50px;
 }
 
 .eraser { 
